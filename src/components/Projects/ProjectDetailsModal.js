@@ -33,7 +33,15 @@ class ProjectDetailsModal extends Component {
       if (this.props.data.descriptions) {
         if (this.props.data.descriptions.length > 1) {
           var newDesc = descriptions.map((i) => {
-            return <>{i}<br/><br/><br/><br/></>;
+            return (
+              <>
+                {i}
+                <br />
+                <br />
+                <br />
+                <br />
+              </>
+            );
           });
         } else {
           newDesc = descriptions.map((i) => {
@@ -78,13 +86,28 @@ class ProjectDetailsModal extends Component {
           </div>
 
           <div className="btnContainer">
-            <Button className="btnPrimary" href={this.props.data.codelink}>
-              <AiFillGithub /> &nbsp;
-              {"View Code"}
+            <Button className="btnPrimary">
+              <a
+                href={this.props.data.codelink}
+                style={{ color: "white", textDecorationLine: "none" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiFillGithub /> &nbsp;
+                {"View Code"}
+              </a>
             </Button>
-            <Button className="btnPrimary" href={newLink}>
-              <BiLinkExternal /> &nbsp;
-              {buttonString}
+
+            <Button className="btnPrimary">
+              <a
+                href={newLink}
+                style={{ color: "white", textDecorationLine: "none" }}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <BiLinkExternal /> &nbsp;
+                {buttonString}
+              </a>
             </Button>
           </div>
         </div>
