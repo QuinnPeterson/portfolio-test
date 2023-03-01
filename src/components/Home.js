@@ -54,7 +54,7 @@ function Home() {
 
             <Col md={5} style={{ paddingBottom: 20 }}>
               <img
-                src={"/images/home-main.svg"}
+                src={"/portfolio-test/images/home-main.svg"}
                 alt="home pic"
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}

@@ -13,7 +13,11 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={"/images/about.png"} alt="about" className="img-fluid" />
+            <img
+              src={"/portfolio-test/images/about.png"}
+              alt="about"
+              className="img-fluid"
+            />
           </Col>
 
           <Col

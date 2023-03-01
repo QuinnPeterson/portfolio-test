@@ -40,7 +40,7 @@ function NavBar() {
       <Container>
         <Navbar.Brand href="/" className="d-flex">
           <img
-            src={"/images/logo.png"}
+            src={"/portfolio-test/images/logo.png"}
             className="img-fluid logo"
             alt="brand"
           />
