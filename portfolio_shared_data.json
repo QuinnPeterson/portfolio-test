@@ -1,0 +1,37 @@
+{
+  "basic_info": {
+    "name": "Quinn Peterson",
+    "titles": [
+      "Front-end Developer",
+      "Senior Data Engineer",
+      "Dev Team lead",
+      "Mobile App Developer",
+      "Dev Role"
+    ]
+  },
+  "projects": [
+    {
+      "name": "idk!",
+      "technologies": ["HTML", "CSS", "React", "JQuery", "ASP .Net", "PHP"],
+      "images": [
+        "/portfolio-test/images/Projects/chatify.png",
+        "/portfolio-test/images/Projects/algo.png"
+      ],
+      "descriptions": [
+        " Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages. Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages.Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages.Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
+      ],
+      "liveDemoLink": "https://github.com",
+      "codeLink": "",
+      "videoLink": ""
+    },
+    {
+      "name": "IDK 5",
+      "technologies": [],
+      "images": ["/portfolio-test/images/Projects/algo.png", ""],
+      "descriptions": ["test"],
+      "liveDemoLink": "",
+      "codeLink": "",
+      "videoLink": ""
+    }
+  ]
+}
